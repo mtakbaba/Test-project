@@ -6,23 +6,7 @@ import torch, sklearn
 
 data = pd.read_csv("split.csv")
 data.drop(labels=["Unnamed: 2"], axis=1, inplace=True)
-
-X = data["text"]
-y = data["label"]
-
-x_train, x_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
-
-
-model_args = {
-    "use_early_stopping": True,
-    "early_stopping_delta": 0.01,
-    "early_stopping_metric": "mcc",
-    "early_stopping_metric_minimize": False,
-    "early_stopping_patience": 5,
-    "evaluate_during_training_steps": 1000,
-    "fp16": False,
-    "num_train_epochs":3
-}
+bravo
 
 model = ClassificationModel(
     "bert", 
