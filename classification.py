@@ -10,9 +10,7 @@ bravo
 
 model = ClassificationModel(
     "bert", 
-    use_cuda=False,
-    args=model_args, 
-    num_labels=10
+
 )
 train_df = pd.DataFrame(data=data[0:1500])
 model.train_model(train_df, acc=sklearn.metrics.accuracy_score)
