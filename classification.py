@@ -5,12 +5,11 @@ from simpletransformers.classification import ClassificationModel
 import torch, sklearn
 
 data = pd.read_csv("split.csv")
-data.drop(labels=["Unnamed: 2"], axis=1, inplace=True)
+data.drop(labels=["Unnamed: 2"], epoch= 2, axis=1, inplace=True)
 bravo
 
 model = ClassificationModel(
     "bert", 
-    "dbmdz/bert-base-turkish-cased",
     use_cuda=False,
     args=model_args, 
     num_labels=10
@@ -18,8 +17,11 @@ model = ClassificationModel(
 train_df = pd.DataFrame(data=data[0:1500])
 model.train_model(train_df, acc=sklearn.metrics.accuracy_score)
 
-model.save_model("mymodel")
+isDefined = model.save_model("mymodel")
 
+
+
+print("success")
 
 
 
