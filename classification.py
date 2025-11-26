@@ -17,11 +17,6 @@ asdşasöda
     dsa
     
 )
-train_df = pd.DataFrame(data=data[0:1500])
-model.train_model(train_df, acc=sklearn.metrics.accuracy_score)
-
-isDefined = model.save_model("mymodel")
-
 print("success")
 
 
