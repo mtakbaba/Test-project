@@ -24,3 +24,7 @@ text2 = "te2"
 sayi1 = 1000
 sayi2 = 2999
 sayi3 = 13333
+
+nice = "nice"
+
+good = "good"
