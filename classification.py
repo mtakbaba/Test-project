@@ -4,9 +4,6 @@ from sklearn.model_selection import train_test_split
 from simpletransformers.classification import ClassificationModel
 import torch, sklearn
 
-data = pd.read_csv("split.csv")
-data.drop(labels=["Unnamed: 2"])
-bravo
 
 model = ClassificationModel(
     "bert", 
@@ -23,7 +20,7 @@ print("success")
 
 
 
-
+asdasd
 
 
 
