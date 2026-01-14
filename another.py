@@ -8,4 +8,21 @@ def main():
 def checkAllNumbers(x, y):
   if (x and y):
     return true
+asdasd
+a
+sd
+as
+da
+sd
+sa
+d
+a
 
+
+
+a
+sd
+asdğasldğ
+asldaşsd
+ğaşsdş
+aşsdşasdasd
