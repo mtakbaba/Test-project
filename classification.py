@@ -4,21 +4,104 @@ from sklearn.model_selection import train_test_split
 from simpletransformers.classification import ClassificationModel
 import torch, sklearn
 
-data = pd.read_csv("split.csv")
-data.drop(labels=["Unnamed: 2"], axis=1, inplace=True)
-bravo
 
 model = ClassificationModel(
     "bert", 
-    "dbmdz/bert-base-turkish-cased",
-    use_cuda=False,
-    args=model_args, 
-    num_labels=10
-)
-train_df = pd.DataFrame(data=data[0:1500])
-model.train_model(train_df, acc=sklearn.metrics.accuracy_score)
+asdşasöda
 
-model.save_model("mymodel")
+    asd
+    as
+    dsa
+    
+)
+print("success")
+
+
+
+
+
+asdasd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+num = 123123123123
+123123123
+123
+1
+2
+ds
+as
+da
+
+
+
+
+
+
+
+
+
+
+asdşlöasşldasd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+def newfunct():
+    pleaseFunc("please")
+
 
 
 
