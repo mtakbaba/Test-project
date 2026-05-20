@@ -1,12 +1,10 @@
-def main():
-  print("hello world!")
-
-def calculate(x, y):
-  return x+y
-
-text = "test tolga"
-text2 = "test 2"
-text4 = "kamil"
-sayi1 = 1
-sayi2 = 2
-sayi3 = 13
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+import java.util.stream.Collectors;
