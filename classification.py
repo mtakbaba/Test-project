@@ -21,5 +21,10 @@ model.train_model(train_df, acc=sklearn.metrics.accuracy_score)
 model.save_model("mymodel")
 
 
-
+dfjghdfjgüdfü
+fogkfjgdsf
+ewıgurwvıjdsf
+dfkgjdfjhger
+vdfjbdfgd
+djgjfgdfgdfg
 
