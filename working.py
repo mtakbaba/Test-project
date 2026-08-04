@@ -3,8 +3,7 @@ def main():
 
 def calculate(x, y):
   return x+y
-
-text = "test tolga"
+asdasd
 text2 = "test 2"
 
 sayi1 = 1
